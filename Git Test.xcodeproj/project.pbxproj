@@ -21,6 +21,7 @@
 		C78A65E119B0BB1700C76363 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C78A65C319B0BB1600C76363 /* UIKit.framework */; };
 		C78A65E919B0BB1700C76363 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C78A65E719B0BB1700C76363 /* InfoPlist.strings */; };
 		C78A65EB19B0BB1700C76363 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C78A65EA19B0BB1700C76363 /* Git_TestTests.m */; };
+		C78A65F619B0C8DB00C76363 /* MDtest.m in Sources */ = {isa = PBXBuildFile; fileRef = C78A65F519B0C8DB00C76363 /* MDtest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		C78A65E619B0BB1700C76363 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		C78A65E819B0BB1700C76363 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C78A65EA19B0BB1700C76363 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		C78A65F419B0C8DB00C76363 /* MDtest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDtest.h; sourceTree = "<group>"; };
+		C78A65F519B0C8DB00C76363 /* MDtest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDtest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		C78A65B319B0BB1600C76363 = {
 			isa = PBXGroup;
 			children = (
+				C78A65F419B0C8DB00C76363 /* MDtest.h */,
+				C78A65F519B0C8DB00C76363 /* MDtest.m */,
 				C78A65C519B0BB1600C76363 /* Git Test */,
 				C78A65E419B0BB1700C76363 /* Git TestTests */,
 				C78A65BE19B0BB1600C76363 /* Frameworks */,
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C78A65F619B0C8DB00C76363 /* MDtest.m in Sources */,
 				C78A65CC19B0BB1600C76363 /* main.m in Sources */,
 				C78A65D619B0BB1600C76363 /* MDViewController.m in Sources */,
 				C78A65D019B0BB1600C76363 /* MDAppDelegate.m in Sources */,
