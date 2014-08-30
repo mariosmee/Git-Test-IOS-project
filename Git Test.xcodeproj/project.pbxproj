@@ -22,6 +22,7 @@
 		C78A65E919B0BB1700C76363 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C78A65E719B0BB1700C76363 /* InfoPlist.strings */; };
 		C78A65EB19B0BB1700C76363 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C78A65EA19B0BB1700C76363 /* Git_TestTests.m */; };
 		C78A65F619B0C8DB00C76363 /* MDtest.m in Sources */ = {isa = PBXBuildFile; fileRef = C78A65F519B0C8DB00C76363 /* MDtest.m */; };
+		C78A65FA19B15EC700C76363 /* MDOther.m in Sources */ = {isa = PBXBuildFile; fileRef = C78A65F919B15EC700C76363 /* MDOther.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,8 +55,10 @@
 		C78A65E619B0BB1700C76363 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		C78A65E819B0BB1700C76363 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C78A65EA19B0BB1700C76363 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
-		C78A65F419B0C8DB00C76363 /* MDtest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDtest.h; sourceTree = "<group>"; };
-		C78A65F519B0C8DB00C76363 /* MDtest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDtest.m; sourceTree = "<group>"; };
+		C78A65F419B0C8DB00C76363 /* MDtest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MDtest.h; path = ../MDtest.h; sourceTree = "<group>"; };
+		C78A65F519B0C8DB00C76363 /* MDtest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MDtest.m; path = ../MDtest.m; sourceTree = "<group>"; };
+		C78A65F819B15EC700C76363 /* MDOther.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDOther.h; sourceTree = "<group>"; };
+		C78A65F919B15EC700C76363 /* MDOther.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDOther.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +88,6 @@
 		C78A65B319B0BB1600C76363 = {
 			isa = PBXGroup;
 			children = (
-				C78A65F419B0C8DB00C76363 /* MDtest.h */,
-				C78A65F519B0C8DB00C76363 /* MDtest.m */,
 				C78A65C519B0BB1600C76363 /* Git Test */,
 				C78A65E419B0BB1700C76363 /* Git TestTests */,
 				C78A65BE19B0BB1600C76363 /* Frameworks */,
@@ -117,6 +118,7 @@
 		C78A65C519B0BB1600C76363 /* Git Test */ = {
 			isa = PBXGroup;
 			children = (
+				C78A65F719B15E8200C76363 /* G1 */,
 				C78A65CE19B0BB1600C76363 /* MDAppDelegate.h */,
 				C78A65CF19B0BB1600C76363 /* MDAppDelegate.m */,
 				C78A65D119B0BB1600C76363 /* Main.storyboard */,
@@ -155,6 +157,17 @@
 				C78A65E719B0BB1700C76363 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C78A65F719B15E8200C76363 /* G1 */ = {
+			isa = PBXGroup;
+			children = (
+				C78A65F419B0C8DB00C76363 /* MDtest.h */,
+				C78A65F519B0C8DB00C76363 /* MDtest.m */,
+				C78A65F819B15EC700C76363 /* MDOther.h */,
+				C78A65F919B15EC700C76363 /* MDOther.m */,
+			);
+			name = G1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +270,7 @@
 			files = (
 				C78A65F619B0C8DB00C76363 /* MDtest.m in Sources */,
 				C78A65CC19B0BB1600C76363 /* main.m in Sources */,
+				C78A65FA19B15EC700C76363 /* MDOther.m in Sources */,
 				C78A65D619B0BB1600C76363 /* MDViewController.m in Sources */,
 				C78A65D019B0BB1600C76363 /* MDAppDelegate.m in Sources */,
 			);
